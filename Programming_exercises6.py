@@ -1,6 +1,6 @@
 # FUNCTIONS
 
-# 1 Write a function that returns a random dice roll between 1 and 6.
+#1 Write a function that returns a random dice roll between 1 and 6.
 # The function should not have any parameters.
 # Write a main program that rolls the dice until the result is 6.
 # The main program should print out the result of each roll.
@@ -56,7 +56,7 @@ def main():
         volume_gallons = float(input("Volume in gallons:"))
 main()
 
-# 4 Write a function that gets a list of integers as a parameter.
+#4 Write a function that gets a list of integers as a parameter.
 # The function returns the sum of all the numbers in the list.
 # For testing, write a main program where you create a list,
 # call the function, and print out the value it returned.
@@ -74,7 +74,7 @@ def main():
 main()
 
 
-# 5 Write a function that gets a list of integers as a parameter.
+#5 Write a function that gets a list of integers as a parameter.
 # The function returns a second list that is otherwise the same as the original list
 # except that all uneven numbers have been removed. For testing, write a main program
 # where you create a list, call the function, and then print out both the original
@@ -125,7 +125,6 @@ print("Pizza 2: ", unit_price_pizza_2)
 
 if unit_price_pizza_1 > unit_price_pizza_2:
     print("Pizza 1 is more expensive than pizza 2")
-
 elif unit_price_pizza_2 > unit_price_pizza_1:
     print("Pizza 2 is more expensive than pizza 1")
 else:
